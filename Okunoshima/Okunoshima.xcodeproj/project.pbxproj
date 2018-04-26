@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44066E1D20000D4500EFA096 /* camera.png in Copy Files */ = {isa = PBXBuildFile; fileRef = 44066E1C20000D3E00EFA096 /* camera.png */; };
+		44128CF61FFEB34900B3D435 /* graph.txt in Copy Files */ = {isa = PBXBuildFile; fileRef = 4425BB861FFC14CE002597AF /* graph.txt */; };
+		44128CF81FFECF7F00B3D435 /* grass.png in Copy Files */ = {isa = PBXBuildFile; fileRef = 44128CF71FFECF7B00B3D435 /* grass.png */; };
+		44128CFA1FFED04400B3D435 /* libSDL2_gfx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 44128CF91FFED04400B3D435 /* libSDL2_gfx.a */; };
+		44149B531FFD60CA007DB9BD /* entity_dog.png in Copy Files */ = {isa = PBXBuildFile; fileRef = 44149B511FFD6071007DB9BD /* entity_dog.png */; };
+		44149B541FFD60CB007DB9BD /* entity_female.png in Copy Files */ = {isa = PBXBuildFile; fileRef = 44149B4F1FFD6071007DB9BD /* entity_female.png */; };
+		44149B551FFD60CC007DB9BD /* entity_male.png in Copy Files */ = {isa = PBXBuildFile; fileRef = 44149B501FFD6071007DB9BD /* entity_male.png */; };
+		44149B561FFD60CD007DB9BD /* entity_rabbit.png in Copy Files */ = {isa = PBXBuildFile; fileRef = 44149B521FFD6071007DB9BD /* entity_rabbit.png */; };
+		4425BB911FFC2E51002597AF /* graph.png in Copy Files */ = {isa = PBXBuildFile; fileRef = 4425BB901FFC2E50002597AF /* graph.png */; };
+		448AC9541FF88C740040E425 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 448AC9531FF88C740040E425 /* main.cpp */; };
+		448AC9561FF88C970040E425 /* libOkunoshimaCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 448AC9571FF88C970040E425 /* libOkunoshimaCore.a */; };
+		448AC9651FF88DC20040E425 /* libSDL2_image.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 448AC9601FF88DC20040E425 /* libSDL2_image.a */; };
+		448AC9661FF88DC20040E425 /* libSDL2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 448AC9611FF88DC20040E425 /* libSDL2.a */; };
+		448AC9671FF88DC20040E425 /* libSDL2_ttf.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 448AC9621FF88DC20040E425 /* libSDL2_ttf.a */; };
+		448AC9681FF88DC20040E425 /* libSDL2_mixer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 448AC9631FF88DC20040E425 /* libSDL2_mixer.a */; };
+		448AC9691FF88DC20040E425 /* libSDL2main.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 448AC9641FF88DC20040E425 /* libSDL2main.a */; };
+		D42AC4BB200103370014C1D6 /* entity_dog_angry.png in Copy Files */ = {isa = PBXBuildFile; fileRef = D42AC4BA200102E00014C1D6 /* entity_dog_angry.png */; };
+		D46C62312002B52F00B03F10 /* RobotoMono-Regular.ttf in Copy Files */ = {isa = PBXBuildFile; fileRef = D46C62302002B52700B03F10 /* RobotoMono-Regular.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		448AC95C1FF88C9F0040E425 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 448AC9581FF88C9F0040E425 /* OkunoshimaCore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 448AC92F1FF88B3B0040E425;
+			remoteInfo = OkunoshimaCore;
+		};
+		448AC95E1FF88CA30040E425 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 448AC9581FF88C9F0040E425 /* OkunoshimaCore.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 448AC92E1FF88B3B0040E425;
+			remoteInfo = OkunoshimaCore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4425BB8B1FFC1937002597AF /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				D46C62312002B52F00B03F10 /* RobotoMono-Regular.ttf in Copy Files */,
+				44128CF61FFEB34900B3D435 /* graph.txt in Copy Files */,
+				44128CF81FFECF7F00B3D435 /* grass.png in Copy Files */,
+				44149B561FFD60CD007DB9BD /* entity_rabbit.png in Copy Files */,
+				4425BB911FFC2E51002597AF /* graph.png in Copy Files */,
+				44149B551FFD60CC007DB9BD /* entity_male.png in Copy Files */,
+				D42AC4BB200103370014C1D6 /* entity_dog_angry.png in Copy Files */,
+				44066E1D20000D4500EFA096 /* camera.png in Copy Files */,
+				44149B541FFD60CB007DB9BD /* entity_female.png in Copy Files */,
+				44149B531FFD60CA007DB9BD /* entity_dog.png in Copy Files */,
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		44066E1C20000D3E00EFA096 /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
+		44128CF71FFECF7B00B3D435 /* grass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grass.png; sourceTree = "<group>"; };
+		44128CF91FFED04400B3D435 /* libSDL2_gfx.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSDL2_gfx.a; path = ../../../../../usr/local/Cellar/sdl2_gfx/1.0.3/lib/libSDL2_gfx.a; sourceTree = "<group>"; };
+		44149B4F1FFD6071007DB9BD /* entity_female.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = entity_female.png; sourceTree = "<group>"; };
+		44149B501FFD6071007DB9BD /* entity_male.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = entity_male.png; sourceTree = "<group>"; };
+		44149B511FFD6071007DB9BD /* entity_dog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = entity_dog.png; sourceTree = "<group>"; };
+		44149B521FFD6071007DB9BD /* entity_rabbit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = entity_rabbit.png; sourceTree = "<group>"; };
+		4425BB861FFC14CE002597AF /* graph.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = graph.txt; sourceTree = "<group>"; };
+		4425BB901FFC2E50002597AF /* graph.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = graph.png; sourceTree = "<group>"; };
+		448AC93F1FF88B4B0040E425 /* Okunoshima */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Okunoshima; sourceTree = BUILT_PRODUCTS_DIR; };
+		448AC9531FF88C740040E425 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		448AC9571FF88C970040E425 /* libOkunoshimaCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libOkunoshimaCore.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		448AC9581FF88C9F0040E425 /* OkunoshimaCore.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OkunoshimaCore.xcodeproj; path = ../OkunoshimaCore/OkunoshimaCore.xcodeproj; sourceTree = "<group>"; };
+		448AC9601FF88DC20040E425 /* libSDL2_image.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSDL2_image.a; path = ../../../../../usr/local/Cellar/sdl2_image/2.0.2/lib/libSDL2_image.a; sourceTree = "<group>"; };
+		448AC9611FF88DC20040E425 /* libSDL2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSDL2.a; path = ../../../../../usr/local/Cellar/sdl2/2.0.7/lib/libSDL2.a; sourceTree = "<group>"; };
+		448AC9621FF88DC20040E425 /* libSDL2_ttf.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSDL2_ttf.a; path = ../../../../../usr/local/Cellar/sdl2_ttf/2.0.14/lib/libSDL2_ttf.a; sourceTree = "<group>"; };
+		448AC9631FF88DC20040E425 /* libSDL2_mixer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSDL2_mixer.a; path = ../../../../../usr/local/Cellar/sdl2_mixer/2.0.2_3/lib/libSDL2_mixer.a; sourceTree = "<group>"; };
+		448AC9641FF88DC20040E425 /* libSDL2main.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSDL2main.a; path = ../../../../../usr/local/Cellar/sdl2/2.0.7/lib/libSDL2main.a; sourceTree = "<group>"; };
+		D42AC4BA200102E00014C1D6 /* entity_dog_angry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = entity_dog_angry.png; sourceTree = "<group>"; };
+		D46C62302002B52700B03F10 /* RobotoMono-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoMono-Regular.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		448AC93C1FF88B4B0040E425 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				448AC9661FF88DC20040E425 /* libSDL2.a in Frameworks */,
+				448AC9651FF88DC20040E425 /* libSDL2_image.a in Frameworks */,
+				448AC9691FF88DC20040E425 /* libSDL2main.a in Frameworks */,
+				44128CFA1FFED04400B3D435 /* libSDL2_gfx.a in Frameworks */,
+				448AC9671FF88DC20040E425 /* libSDL2_ttf.a in Frameworks */,
+				448AC9681FF88DC20040E425 /* libSDL2_mixer.a in Frameworks */,
+				448AC9561FF88C970040E425 /* libOkunoshimaCore.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4425BB851FFC14AE002597AF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D46C62302002B52700B03F10 /* RobotoMono-Regular.ttf */,
+				D42AC4BA200102E00014C1D6 /* entity_dog_angry.png */,
+				44066E1C20000D3E00EFA096 /* camera.png */,
+				44128CF71FFECF7B00B3D435 /* grass.png */,
+				44149B511FFD6071007DB9BD /* entity_dog.png */,
+				44149B4F1FFD6071007DB9BD /* entity_female.png */,
+				44149B501FFD6071007DB9BD /* entity_male.png */,
+				44149B521FFD6071007DB9BD /* entity_rabbit.png */,
+				4425BB901FFC2E50002597AF /* graph.png */,
+				4425BB861FFC14CE002597AF /* graph.txt */,
+			);
+			name = Resources;
+			path = resources;
+			sourceTree = "<group>";
+		};
+		448AC9361FF88B4B0040E425 = {
+			isa = PBXGroup;
+			children = (
+				448AC9581FF88C9F0040E425 /* OkunoshimaCore.xcodeproj */,
+				448AC94C1FF88B620040E425 /* Sources */,
+				4425BB851FFC14AE002597AF /* Resources */,
+				448AC9401FF88B4B0040E425 /* Products */,
+				448AC9551FF88C970040E425 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		448AC9401FF88B4B0040E425 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				448AC93F1FF88B4B0040E425 /* Okunoshima */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		448AC94C1FF88B620040E425 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				448AC9531FF88C740040E425 /* main.cpp */,
+			);
+			name = Sources;
+			path = src;
+			sourceTree = "<group>";
+		};
+		448AC9551FF88C970040E425 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44128CF91FFED04400B3D435 /* libSDL2_gfx.a */,
+				448AC9601FF88DC20040E425 /* libSDL2_image.a */,
+				448AC9631FF88DC20040E425 /* libSDL2_mixer.a */,
+				448AC9621FF88DC20040E425 /* libSDL2_ttf.a */,
+				448AC9611FF88DC20040E425 /* libSDL2.a */,
+				448AC9641FF88DC20040E425 /* libSDL2main.a */,
+				448AC9571FF88C970040E425 /* libOkunoshimaCore.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		448AC9591FF88C9F0040E425 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				448AC95D1FF88C9F0040E425 /* libOkunoshimaCore.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		448AC93E1FF88B4B0040E425 /* Okunoshima */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 448AC9461FF88B4B0040E425 /* Build configuration list for PBXNativeTarget "Okunoshima" */;
+			buildPhases = (
+				448AC93B1FF88B4B0040E425 /* Sources */,
+				448AC93C1FF88B4B0040E425 /* Frameworks */,
+				4425BB8B1FFC1937002597AF /* Copy Files */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				448AC95F1FF88CA30040E425 /* PBXTargetDependency */,
+			);
+			name = Okunoshima;
+			productName = Okunoshima;
+			productReference = 448AC93F1FF88B4B0040E425 /* Okunoshima */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		448AC9371FF88B4B0040E425 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Rob Hendriks";
+				TargetAttributes = {
+					448AC93E1FF88B4B0040E425 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 448AC93A1FF88B4B0040E425 /* Build configuration list for PBXProject "Okunoshima" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 448AC9361FF88B4B0040E425;
+			productRefGroup = 448AC9401FF88B4B0040E425 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 448AC9591FF88C9F0040E425 /* Products */;
+					ProjectRef = 448AC9581FF88C9F0040E425 /* OkunoshimaCore.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				448AC93E1FF88B4B0040E425 /* Okunoshima */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		448AC95D1FF88C9F0040E425 /* libOkunoshimaCore.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libOkunoshimaCore.a;
+			remoteRef = 448AC95C1FF88C9F0040E425 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXSourcesBuildPhase section */
+		448AC93B1FF88B4B0040E425 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				448AC9541FF88C740040E425 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		448AC95F1FF88CA30040E425 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OkunoshimaCore;
+			targetProxy = 448AC95E1FF88CA30040E425 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		448AC9441FF88B4B0040E425 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		448AC9451FF88B4B0040E425 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		448AC9471FF88B4B0040E425 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QV4T55ZUBD;
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = "";
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					"$(SRCROOT)/../OkunoshimaCore/include",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib,
+					/usr/local/Cellar/sdl2_image/2.0.2/lib,
+					/usr/local/Cellar/sdl2/2.0.7/lib,
+					/usr/local/Cellar/sdl2_ttf/2.0.14/lib,
+					/usr/local/Cellar/sdl2_mixer/2.0.2_3/lib,
+					/usr/local/Cellar/sdl2_gfx/1.0.3/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		448AC9481FF88B4B0040E425 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QV4T55ZUBD;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					"$(SRCROOT)/../OkunoshimaCore/include",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib,
+					/usr/local/Cellar/sdl2_image/2.0.2/lib,
+					/usr/local/Cellar/sdl2/2.0.7/lib,
+					/usr/local/Cellar/sdl2_ttf/2.0.14/lib,
+					/usr/local/Cellar/sdl2_mixer/2.0.2_3/lib,
+					/usr/local/Cellar/sdl2_gfx/1.0.3/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		448AC93A1FF88B4B0040E425 /* Build configuration list for PBXProject "Okunoshima" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				448AC9441FF88B4B0040E425 /* Debug */,
+				448AC9451FF88B4B0040E425 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		448AC9461FF88B4B0040E425 /* Build configuration list for PBXNativeTarget "Okunoshima" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				448AC9471FF88B4B0040E425 /* Debug */,
+				448AC9481FF88B4B0040E425 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 448AC9371FF88B4B0040E425 /* Project object */;
+}
